@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/black_overlay" >
+
+<Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="5sp"        
+        android:background="#F0F8FF"
+        android:text="@string/call"
+        android:textColor="#000"
+        android:layout_gravity="center" 
+        />
+
+<Button
+        android:id="@+id/browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="5sp"        
+        android:background="#F0F8FF"
+        android:text="@string/browser"
+        android:textColor="#000"
+        android:layout_gravity="center" 
+        />
+
+
+<Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="5sp"        
+        android:background="#F0F8FF"
+        android:text="@string/map"        
+        android:textColor="#000"
+        android:layout_gravity="center" 
+        />
+
+<Button
+        android:id="@+id/capture_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="5sp"        
+        android:background="#F0F8FF"
+        android:text="@string/capture_image"        
+        android:textColor="#000"
+        android:layout_gravity="center" 
+        />
+
+<Button
+        android:id="@+id/view_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="5sp"        
+        android:background="#F0F8FF"
+        android:text="@string/view_contacts"        
+        android:textColor="#000"
+        android:layout_gravity="center"
+         />	
+
+</LinearLayout>

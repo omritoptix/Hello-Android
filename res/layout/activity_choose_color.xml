@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context=".ChooseColor" >
+
+	<Button
+		android:id="@+id/buttonRed"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/red"
+		android:textSize="20sp" />
+	
+	<Button
+		android:id="@+id/buttonGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonRed"
+        android:text="@string/green"
+        android:textSize="20sp" />
+	
+	<Button
+		android:id="@+id/buttonBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonGreen"
+        android:text="@string/blue"
+        android:textSize="20sp" />
+
+</RelativeLayout>

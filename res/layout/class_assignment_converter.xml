@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black_overlay" >
+
+    <TextView
+        android:id="@+id/textTypeHere"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_here"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editConvert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#fff"
+        android:inputType="text" >
+<!--         <requestFocus /> -->
+    </EditText>
+    
+     <RadioGroup
+        android:id="@+id/radioDegree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editConvert" >
+ 
+        <RadioButton
+            android:id="@+id/radioC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_C"
+            android:checked="true" />       
+ 
+        <RadioButton
+            android:id="@+id/radioF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_F"             
+            />
+ 
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="5sp"        
+        android:background="#F0F8FF"
+        android:text="@string/button_convert"
+        android:layout_below="@+id/radioDegree"
+        android:textColor="#000" />
+    
+    
+</RelativeLayout>

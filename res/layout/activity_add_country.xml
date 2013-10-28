@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context=".AddCountry" >
+
+	<TextView
+		android:id="@+id/countryNameText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/country_name"
+		android:textSize="25sp" />
+    <EditText
+        android:id="@+id/countryNameEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/countryNameText"
+        android:background="#fff"
+        android:inputType="text" >
+     </EditText>
+    
+     <TextView
+     android:id="@+id/countryColorText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/country_color"
+     android:layout_below="@+id/countryNameText"
+     android:layout_marginTop="30sp"
+     android:textSize="25sp" />
+     
+	<Spinner
+		android:id="@+id/colors_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/countryColorText"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/countryNameEdit"/>
+	
+	<Button
+		android:id="@+id/createCountryButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/add"
+		android:textSize="40sp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		/>
+
+</RelativeLayout>
